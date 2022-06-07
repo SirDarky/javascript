@@ -1,0 +1,45 @@
+<script>
+/*
+    //console.log('> existe y antes do bloco?', y) não funciona
+
+{
+    let y=0
+    console.log('existe y', y) // só funciona no escopo do bloco
+}
+
+//console.log('> existe y depois do bloco?', y) não funciona
+
+*/
+
+/*
+let y=1
+
+{
+    let y=0
+    console.log('existe y', y) // y=0
+}
+
+console.log('> existe y depois do bloco?', y) // y=1
+*/
+
+
+/*
+let y=1
+
+{
+    y=0
+    console.log('existe y', y) // y=0
+}
+
+console.log('> existe y depois do bloco?', y) // y=0
+*/
+
+const y=1
+
+{
+    const y=0 //não é possivel atualizar o valor de uma const
+    console.log('existe y', y) // y=0
+}
+
+console.log('> existe y depois do bloco?', y) // y=1
+</script>
