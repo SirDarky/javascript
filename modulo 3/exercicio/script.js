@@ -58,7 +58,7 @@ console.log(students[0])
 const john= {
     name: "John",
     age: 21,
-    weight: 90,2,
+    weight: 90.2,
     isSubscriber: true
 }
 students[1] = john
