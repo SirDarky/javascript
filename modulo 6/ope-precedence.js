@@ -12,5 +12,4 @@
     * OR                            ||
     * condicional                   ?:
     * assignment(atribuição)        = += -= *=
-    /
 */
